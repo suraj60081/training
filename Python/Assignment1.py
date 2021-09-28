@@ -32,16 +32,16 @@ for i in Fail:
 print("Output 2 : Failed in one subject")
 print(Reappear)
 print("output 3: overall class performance")
-for i in Name:
-    print(i,Percentage[Name.index[i]])
+for i in Name :
+    print(i," ",Percentage[Name.index(i)])
 print("Output 4 : Grades")
-for i in Percentage:
-    if Percentage[i]<=80 or Percentage[i]>=60:
-        print(Percentage[i]," : First Division")
-    elif Percentage[i]<=60 or Percentage[i]>=50:
-        print(Percentage[i]," : second Division")
-    elif Percentage[i]>=80:
-        print(Percentage[i]," : Distinction")
+for i in Name :
+    if Percentage[Name.index(i)]<=80 and Percentage[Name.index(i)]>=60 :
+        print(i," ",Percentage[Name.index(i)]," : First Division")
+    elif Percentage[Name.index(i)]<=60 and Percentage[Name.index(i)]>=50 :
+        print(i," ",Percentage[Name.index(i)]," : second Division")
+    elif Percentage[Name.index(i)]>=80 :
+        print(i," ",Percentage[Name.index(i)]," : Distinction")
     else :
         continue
     
